@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tangerine:wght@400;700&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Name{
+color: rgb(59, 87, 78);
+font-family: "Tangerine", serif;
+text-align: center;
+padding: 20px;
+font-size: 50px;
+}
+
+body{
+            min-width: 320px;
+            max-width: 3200px;
+            margin: 0 auto;
+}
+
+h2{
+
+        font-size: 30px;
+}
+
+.menu{
+    padding: 5px;
+    margin: center;
+    font-size: 2rem;
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 0 rgb(7, 9, 19);
+    text-align: center;
+    background-color: rgb(59, 87, 78);
+    border-radius: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    background: transparent;
+    
+}
+
+.t{
+    color: white;
+    font-size: 30px
+}
+
+img{
+    width: 100%;
+
+}
+
+
+
+
+.title{
+
+   text-align: center;
+   padding: 25px;
+   font-family: "Tangerine", serif;
+   font-size: 100px
+
+}
+
+.divBahia{
+display: flex;
+margin-left: 200px;
+margin-right: 200px;
+
+}
+
+.bahia{
+            width: 400px;
+            height: 400px;
+            margin-left: 25px;
+            border-radius: 15px;   
+}
+
+.bahia1{
+    text-align: center;
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 100%;
+    background-color: #e0d2b4
+    
+    
+    
+}
+
+.divGuatape{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+
+
+    
+    .guatape{
+        width: 400px;
+        height: 400px;
+        margin-left: 25px;
+        border-radius: 15px;   
+        
+        
+    }
+
+
+    *p{
+        font-family: "Roboto Mono", serif;
+
+    }
+
+    .divlostcity{
+        display: flex;
+        margin-left: 200px;
+        margin-right: 200px;
+        
+        }
+        
+        .loscity{
+            width: 400px;
+            height: 400px;
+            margin-left: 25px;
+            border-radius: 15px;   
+        }
+
+        
+
+        p{
+            font-family: "Roboto Mono", serif;
+            padding: 10px;
+            font-size: 20px;
+            text-align: justify;
+            min-width: 200px;
+            text-overflow: ellipsis;
+           
+        }
+
+        .hyperlinks{
+
+            text-decoration: underline red;
+        }
+
+        footer{
+
+            background-color:rgb(59, 87, 78);
+            padding: 5px;
+            text-align: center;
+
+            color: white;
+            font-family: "Tangerine", serif;
+            text-align: center;
+            padding: 20px;
+            font-size: 50px;
+        }
