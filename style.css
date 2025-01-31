@@ -1,168 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tangerine:wght@400;700&display=swap');
-
-
-html{
-    scroll-behavior: smooth;
-}
-
-.Name{
-color: rgb(59, 87, 78);
-font-family: "Tangerine", serif;
-text-align: center;
-padding: 20px;
-font-size: 50px;
-}
-
-body{
-            min-width: 320px;
-            max-width: 3200px;
-            margin: 0 auto;
-}
-
-h2{
-
-        font-size: 30px;
-}
-
-.menu{
-    padding: 5px;
-    margin: center;
-    font-size: 2rem;
-    text-decoration: none;
-    box-shadow: inset 0 -3px 0 0 rgb(7, 9, 19);
-    text-align: center;
-    background-color: rgb(59, 87, 78);
-    border-radius: 20px;
-    
-}
-
-a{
-    text-decoration: none;
-    padding: 5px;
-    color: black;
-    background: transparent;
-    
-}
-
-.t{
-    color: white;
-    font-size: 30px
-}
-
-img{
-    width: 100%;
-
-}
-
-
-
-
-.title{
-
-   text-align: center;
-   padding: 25px;
-   font-family: "Tangerine", serif;
-   font-size: 100px
-
-}
-
-.divBahia{
-display: flex;
-margin-left: 200px;
-margin-right: 200px;
-
-}
-
-.bahia{
-            width: 400px;
-            height: 400px;
-            margin-left: 25px;
-            border-radius: 15px;   
-}
-
-.bahia1{
-    text-align: center;
-    
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0px;
-    font-size: 100%;
-    background-color: #e0d2b4
+    <title>Mis historias favoritas</title>
+</head>
+<body>
     
     
+
+
+    <div class="Name">
+
+    <h1 class="name">Jair Toro</h1>
+    </div>
     
-}
+    <h1 class="title">My Favorite Places</h1>
 
-.divGuatape{
-    display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    }
+<div class="menu">
+    <a class="t" href="#Bahía Solano"> Bahía Solano</a>
+    <a class="t" href="#Guatapé"> Guatapé</a>
+    <a class="t" href="#Lost City"> Lost City</a>
+</div>
+
+</body>
+<br>
+<br>
 
 
+
+<div class="divBahia">
+    <h2 id="Bahía Solano">Baía Solano</h2>
+
+    <img src="Bahía Solano.jpeg" alt="https://aventurecolombia.com/en/bahia-solano-travel-guide">
     
-    .guatape{
-        width: 400px;
-        height: 400px;
-        margin-left: 25px;
-        border-radius: 15px;   
         
-        
-    }
+    <p>You have to come to Bahia Solano Bahia because it is a tourist desttination where you can find a lot of flowers and vegetation as well as many<strong> <a class="hyperlinks" href="https://acortar.link/AFpdl1">hotels</a></strong> to relax at.</p>
+    <p> In Bahia Solano you can find many tours to go and enjoy  different activities such as watching the tropical jungle frogs and other wild animals. </p>
+    <p>The different tours in Bahia Solano are a lot of fun because you can see the whales jumping in the water as well as visit the different<strong><a class="hyperlinks" href="https://sandee.com/colombia/choco/bahia-solano">beaches</a></strong>around the bay. you need to know the hotels and <strong> <a class="hyperlinks" href="https://www.tripadvisor.ca/Restaurants-g1983809-Bahia_Solano_Choco_Department.html">restaurants</a></strong>.</p>
 
-
-    *p{
-        font-family: "Roboto Mono", serif;
-
-    }
-
-    .divlostcity{
-        display: flex;
-        margin-left: 200px;
-        margin-right: 200px;
-        
-        }
-        
-        .loscity{
-            width: 400px;
-            height: 400px;
-            margin-left: 25px;
-            border-radius: 15px;   
-        }
-
+    
+    <p class="bahia1"><a href="https://aventurecolombia.com/en/bahia-solano-travel-guide/">°Bahia Solano </a></p>
+        <p class="bahia1">Source: <a href="https://aventurecolombia.com/en/bahia-solano-travel-guide/">https://aventurecolombia.com</a></p>
         
 
-        p{
-            font-family: "Roboto Mono", serif;
-            padding: 10px;
-            font-size: 20px;
-            text-align: justify;
-            min-width: 200px;
-            text-overflow: ellipsis;
-           
-        }
+</div>
 
-        .hyperlinks{
 
-            text-decoration: underline red;
-        }
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
-        footer{
 
-            background-color:rgb(59, 87, 78);
-            padding: 5px;
-            text-align: center;
+<div class="divGuatape">
+    <h2 id="Guatapé">Guatapé</h2>
 
-            color: white;
-            font-family: "Tangerine", serif;
-            text-align: center;
-            padding: 20px;
-            font-size: 50px;
-        }
+    <img src="Guatapé.jpeg" alt="https://aventurecolombia.com/en/bahia-solano-travel-guide">
+    
+        
+    <P>Guatapé is the most visited place by all foreigners in the department of Antioquia because it represents an important cultural and touristic site in Colombia. <strong><a class="hyperlinks" href="https://www.tripadvisor.ca/Restaurants-g1087551-Guatape_Antioquia_Department.html">You need to know the restaurants and hotels.</a></strong> </P>
+
+        <p>The <strong> <a class="hyperlinks" href="https://www.viator.com/Medellin/d4563-ttd/p-70874P3?pid=P00050132&mcid=42383&medium=link&campaign=ttd-guatape">tours</strong></a> in Guatape are relaxing because you can take a ride on a giant lake by boat or explore the lake by kayak.</p>
+
+        <p>Finally the most important tour of Guatapé is the ascent of 1,200 steps to the top of the Peñol stone to see the best views of the entire valley.</p>
+
+        <p><strong><a class="hyperlinks" href="https://destinationlesstravel.com/things-to-do-in-guatape-colombia/"> ¿Want to know how to get here?, Here is the complete guide</a></strong></p>
+
+    
+        <p class="bahia1"><a href="https://destinationlesstravel.com/things-to-do-in-guatape-colombia/">°Guatapé </a></p>
+        <p class="bahia1">Source: <a href="https://acortar.link/1SGJ9W">www.getyourguide.es</a></p>
+        
+
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<div class="divlostcity">
+    <h2 id="Lost City">Lost City</h2>
+
+    <img src="Lost City.jpeg" alt="https://aventurecolombia.com/en/bahia-solano-travel-guide">
+    
+        
+    <p>The Lost City is a perfect place to walk inside the jungle for five days. It is a tour that challenges you mentally and physically.</p>
+
+        <p>In the lost city you can breathe the pure, fresh air and meet the <strong><a class="hyperlinks" href="https://www.survival.es/indigenas/sierra-nevada">indigenous</a></strong> people of the Sierra Nevada de Santa Marta and experience their customs and culture.</p>
+
+        <p>On this tour you can enjoy swimming in the waterfalls that you will find on the way to The Lost City and walk in one of the most untouched jungles in Colombia. It is an unforgettable experience. you need to know the<strong><a class="hyperlinks" href="https://acortar.link/CLF8ae">hotels</a></strong>and<strong> <a class="hyperlinks" href="https://acortar.link/6si9z9">restaurants</a></strong>.</p>
+
+
+    
+     <p class="bahia1"><a href="https://aventurecolombia.com/en/bahia-solano-travel-guide/">°Lost city</a></p>
+    <p class="bahia1">Source: <a href="https://gearjunkie.com/outdoor/hiking/ciudad-perdida-trek">gearjunkie.com</a></p>
+        
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+    Author Jair Toro 
+</footer>
+</html>
